@@ -23,23 +23,22 @@ button:hover {
   padding: 10px 0;
   font-size: 16px;
   color: #fff;
+  border-bottom: 0.1px solid #333;
 }
 .navbar {
   width: 100%;
   display: flex;
-  /* border: 2px solid blue; */
   justify-content: space-between;
   align-items: center;
 }
+
 .home_btn {
   flex-basis: 20px;
   padding: 2px;
-  /* border: 2px solid black; */
 }
 .nav_search {
   flex-basis: 300px;
   justify-content: left;
-  /* border: 2px solid orange; */
 }
 .nav_search input {
   height: 30px;
@@ -52,29 +51,64 @@ button:hover {
 .links {
   display: flex;
   flex-basis: 60%;
-  /* border: 5px solid pink; */
   justify-content: start;
   padding: 0;
-}
-
-.links a {
-  color: #fff;
-  text-decoration: none;
-  /* border: 2px solid purple; */
-  padding: 0 50px 0 0;
 }
 
 .help_info {
   color: #fff;
   text-decoration: none;
-  /* border: 2px solid orangered; */
   flex-basis: 150px;
+  padding-right: 15px;
 }
+
+.dropMenu a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.links a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 50px 0 0;
+}
+
+.dropMenu {
+  float: left;
+  overflow: hidden;
+}
+
+.dropMenu_content {
+  position: absolute;
+  display: none;
+  width: max-content;
+  padding: 20px 0 0;
+}
+
+.dropMenu:hover .dropMenu_content {
+  display: block;
+  background-color: #90ba2c;
+}
+
+.menuCol {
+  float: left;
+}
+
+.menuCol a {
+  float: none;
+  display: block;
+  padding: 20px;
+  border-top: 0.1px solid #333;
+}
+
+/* Style Main block */
 
 .main {
   max-width: 1000px;
   margin: auto;
 }
+
+/* Style Hero Page */
 
 .hero_page {
   margin: 10px 0;
@@ -174,11 +208,9 @@ button:hover {
   width: 50%;
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
   align-items: stretch;
   align-content: space-between;
   padding: 20px 10px 30px;
-  /* margin-right: 50px; */
 }
 .upper_footer a {
   color: #f2f2f2;

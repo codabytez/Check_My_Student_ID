@@ -151,6 +151,112 @@ button:hover {
   color: #333;
 }
 
+/* Styling The Ad */
+
+.ads {
+  width: 80%;
+  margin: auto;
+}
+
+.search_nav {
+  display: flex;
+}
+
+.search_nav h2 {
+  display: flex;
+  align-items: center;
+  padding: 0 5px;
+  font-weight: 800;
+  color: #053444;
+  /* flex-basis: 100px; */
+  /* border: 2px solid; */
+}
+.search_nav h2 span {
+  color: #008cba;
+  font-weight: 800;
+}
+
+.ads_search {
+  background-color: #ffa500;
+  border-radius: 2px;
+  padding: 4px;
+  display: flex;
+  width: 100%;
+}
+
+.ads_search #search,
+.ads_search #date {
+  width: 100%;
+  margin: 0 5px 0 0;
+  border-radius: 2px;
+}
+
+.ads_btn {
+  display: flex;
+  flex-basis: 100%;
+  /* padding: 0 10px; */
+  justify-content: space-between;
+}
+
+.ads_btn_search {
+  border: 2px solid #d8d8d8;
+  border-radius: 5px;
+}
+
+.ads_btn_guest {
+  background-color: #ffa500;
+  border-top: 1px solid #d8d8d8;
+  border-left: 1px solid #d8d8d8;
+  box-shadow: 1px 1px 1px #333;
+  /* border-color: #b97903; */
+}
+
+.ads_location {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 10px;
+}
+
+.places {
+  /* border: 2px solid; */
+  background-color: #e6e5e5;
+  position: relative;
+}
+
+.city_detail {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 5px;
+  padding: 5px;
+  background-color: #0a0a0a8b;
+}
+
+.double_from {
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #fff;
+  /* border: 2px solid; */
+  width: 100%;
+  text-align: end;
+}
+
+.city {
+  position: relative;
+  padding: 5px 2px;
+}
+
+.city .from {
+  position: absolute;
+  right: 0;
+  padding-right: 5px;
+}
+
+/* Styling the Popular Student ID Section */
+
 .popular_id {
   padding: 20px 20px 0;
 }
